@@ -30,6 +30,7 @@ __________________
 
 dataset shape:
 (150, 5)
+__________________
 head data:
     sepal-length  sepal-width  petal-length  petal-width        class
 0            5.1          3.5           1.4          0.2  Iris-setosa
@@ -52,6 +53,7 @@ head data:
 17           5.1          3.5           1.4          0.3  Iris-setosa
 18           5.7          3.8           1.7          0.3  Iris-setosa
 19           5.1          3.8           1.5          0.3  Iris-setosa
+__________________
 stats summary:
        sepal-length  sepal-width  petal-length  petal-width
 count    150.000000   150.000000    150.000000   150.000000
@@ -62,28 +64,37 @@ min        4.300000     2.000000      1.000000     0.100000
 50%        5.800000     3.000000      4.350000     1.300000
 75%        6.400000     3.300000      5.100000     1.800000
 max        7.900000     4.400000      6.900000     2.500000
+__________________
 class distribution
 class
 Iris-setosa        50
 Iris-versicolor    50
 Iris-virginica     50
+__________________
 dtype: int64
+__________________
 LR: 0.941667 (0.065085)
 LDA: 0.975000 (0.038188)
 KNN: 0.958333 (0.041667)
 CART: 0.941667 (0.038188)
 NB: 0.950000 (0.055277)
 SVM: 0.983333 (0.033333)
+__________________
 0.9666666666666667
+__________________
 [[11  0  0]
  [ 0 12  1]
  [ 0  0  6]]
+ __________________
                  precision    recall  f1-score   support
+                 __________________
 
     Iris-setosa       1.00      1.00      1.00        11
 Iris-versicolor       1.00      0.92      0.96        13
  Iris-virginica       0.86      1.00      0.92         6
+ __________________
 
        accuracy                           0.97        30
       macro avg       0.95      0.97      0.96        30
    weighted avg       0.97      0.97      0.97        30
+   __________________
